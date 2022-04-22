@@ -1,0 +1,60 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "listStory": [
+    {
+      "id": "story-8HnPE5Pcj9GjK8o5",
+      "name": "Alfian",
+      "description": "halo",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650426363092_eYtgusZH.jpg",
+      "createdAt": "2022-04-20T03:46:03.095Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-DTiB1alqI8LHRx2U",
+      "name": "faroh",
+      "description": "haii",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650426339669_QpORnkfJ.jpg",
+      "createdAt": "2022-04-20T03:45:39.670Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-h6fjWp_ZmGqdEOZJ",
+      "name": "Yanto",
+      "description": "No Description",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650426192252_OUQEm6pt.jpg",
+      "createdAt": "2022-04-20T03:43:12.253Z",
+      "lat": -2.9795969,
+      "lon": 104.75466
+    },
+    {
+      "id": "story-icdfF14BzIl6X4yx",
+      "name": "audiadyan",
+      "description": "cek lagi",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650426146345_c7YykIZg.jpg",
+      "createdAt": "2022-04-20T03:42:26.348Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-NHyvK0NbUPClX_3m",
+      "name": "11111",
+      "description": "cek",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650426096633_EQXQ1fQU.jpg",
+      "createdAt": "2022-04-20T03:41:36.634Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-mgAC9X_fgl92MbOH",
+      "name": "nrap21",
+      "description": "Jepret jepret jepret",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650425910196_jPlkVrTu.jpg",
+      "createdAt": "2022-04-20T03:38:30.197Z",
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

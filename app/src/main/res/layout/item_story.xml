@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size180dp"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:transitionName="@string/image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:contentDescription="@string/title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:transitionName="@string/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivFoto"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/deskirpsi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:contentDescription="@string/deskirpsi"
+            android:maxLines="3"
+            android:paddingBottom="@dimen/size8dp"
+            android:transitionName="@string/deskirpsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            tools:text="@tools:sample/lorem/random" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

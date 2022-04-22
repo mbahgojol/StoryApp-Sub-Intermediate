@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="API_KEY">AIzaSyDHxRHOqeqeb30CEYfHyoaxARYsy122pVE</string>
+    <string name="masukan_password">Masukan Password</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="error_password">minimal password 6 karakter</string>
+    <string name="login">Login</string>
+    <string name="register">Daftar</string>
+    <string name="masukan_email">Masukan Email</string>
+    <string name="detail_story">Detail Story</string>
+    <string name="home">Home</string>
+    <string name="tambah_story">Tambah Story</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="image">Foto</string>
+    <string name="deskirpsi">Deskripsi</string>
+    <string name="title">Judul</string>
+    <string name="masukan_judul">Masukan Judul Story</string>
+    <string name="masukan_des">Masukan Deskripsi Story</string>
+    <string name="upload">Upload</string>
+    <string name="ambilGambar">Ambil Gambar</string>
+    <string name="add_story">Tambah Story</string>
+
+    <string name="defaultJsonAnim">https://assets8.lottiefiles.com/packages/lf20_atxkdesj.json</string>
+    <string name="error_email">alamat email tidak valid, contoh: abc@example.com</string>
+    <string name="sukses_register">Daftar Akun Berhasil</string>
+    <string name="sukses_upload">Upload Berhasil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="StoryListFragment">Story List</string>
+    <string name="fragmentMapList">Map List</string>
+    <string name="tandai_lokasi_kamu">Tandai Lokasi Kamu</string>
+    <string name="wording_login">Belum punya akun? silahkan daftar dulu</string>
+    <string name="wording_daftar">Sudah punya akun? silahkan login</string>
+</resources>

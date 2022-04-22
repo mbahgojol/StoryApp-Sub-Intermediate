@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_story.xml"
+    app:startDestination="@id/storyListFragment">
+
+    <fragment
+        android:id="@+id/mapListFragment"
+        android:name="com.mbahgojol.storyapp.ui.home.maplist.MapListFragment"
+        android:label="@string/fragmentMapList"
+        tools:layout="@layout/fragment_map_list" />
+    <fragment
+        android:id="@+id/storyListFragment"
+        android:name="com.mbahgojol.storyapp.ui.home.storylist.StoryListFragment"
+        android:label="@string/StoryListFragment"
+        tools:layout="@layout/fragment_story_list" />
+</navigation>

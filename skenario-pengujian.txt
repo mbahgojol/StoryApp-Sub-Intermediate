@@ -1,0 +1,63 @@
+RegisterViewModelTest
+A. ketika berhasil daftar akun
+- Memastikan Loading jalan
+- Memastikan return data sesuai dengan yang di harapkan
+- Memastikan mengembalikan ResultState.Success
+
+B. ketika gagal daftar akun
+- Memastikan Loading jalan
+- Memastikan mengembalikan ResultState.Error
+
+LoginViewModelTest
+A. ketika berhasil login
+- Memastikan Loading jalan
+- Memastikan return data sesuai dengan yang di harapkan
+- Memastikan mengembalikan ResultState.Success
+
+B. ketika gagal login
+- Memastikan Loading jalan
+- Memastikan mengembalikan ResultState.Error
+
+AddStoryViewModelTest
+A. ketika berhasil Add Story
+- Memastikan Loading jalan
+- Memastikan return data sesuai dengan yang di harapkan
+- Memastikan mengembalikan ResultState.Success
+
+B. ketika gagal Add Story
+- Memastikan Loading jalan
+- Memastikan mengembalikan ResultState.Error
+
+MapListViewModelTest
+A. ketika berhasil Map List Story
+- Memastikan Loading jalan
+- Memastikan return data sesuai dengan yang di harapkan
+- Memastikan mengembalikan ResultState.Success
+
+B. ketika gagal Map List Story
+- Memastikan Loading jalan
+- Memastikan mengembalikan ResultState.Error
+
+StoryListViewModelTest
+A. ketika berhasil List Story
+- Memastikan return data sesuai dengan yang di harapkan
+
+B. ketika tidak ada data List Story
+- Memastikan return data sesuai dengan yang di harapkan
+
+RepositoryImplTest
+A. Ketika Login
+- Memastikan data sesuai dengan yang diharapkan.
+
+B. Ketika Register
+- Memastikan data sesuai dengan yang diharapkan.
+
+C. Ketika Add Story
+- Memastikan data sesuai dengan yang diharapkan.
+
+D. Ketika get List Story
+- Memastikan data sesuai dengan yang diharapkan.
+
+StoryListFragmentTest
+A. Ketika berhasil menampilkan data list story di StoryListFragment
+- RecyclerView tampil.
